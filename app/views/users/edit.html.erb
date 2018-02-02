@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 offset-lg-4">
+			<h1 style="margin-top: 40px;">Editing User</h1>
+		</div>
+	</div>
+
+	<%= render 'form', user: @user %>
+	
+	<div class="row">
+		<div class="col-lg-4 offset-lg-4" style="padding-top: 20px; float: right;">
+			<%= link_to 'Show', @user, class: 'btn btn-primary' %> 
+			<%= link_to 'Back', users_path, class: 'btn btn-secondary' %>
+		</div>
+	</div>
+</div>
